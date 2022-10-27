@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_mes",
+  "info": {
+    "singularName": "contact-me",
+    "pluralName": "contact-mes",
+    "displayName": "contact-me",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "first_paragraphs",
+  "info": {
+    "singularName": "first-paragraph",
+    "pluralName": "first-paragraphs",
+    "displayName": "firstParagraph"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
