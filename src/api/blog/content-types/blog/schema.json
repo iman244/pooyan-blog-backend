@@ -20,6 +20,17 @@
     "Body": {
       "type": "richtext",
       "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
